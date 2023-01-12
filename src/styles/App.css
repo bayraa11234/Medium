@@ -5,6 +5,9 @@ body {
   margin: 0;
   padding: 0;
 }
+a {
+  cursor: pointer;
+}
 .slim-nav {
   border-bottom: 1px solid #ebe9ec;
 }
@@ -56,6 +59,7 @@ body {
   padding-right: 4px 12px 6px;
   color: #fff1ff;
   font-size: 14px;
+  height: 38px;
 }
 .main-btn:hover {
   background-color: #fff;
@@ -70,9 +74,11 @@ body {
   color: #868588;
   gap: 33px;
 }
-/* h3 {
+.navbar-brand {
   font-size: 30px;
-} */
+  color: #3e3d41;
+  font-weight: 700;
+}
 .title {
   color: #706e72;
   font-size: 19px;
@@ -81,4 +87,42 @@ body {
 .paragraph {
   color: #3e3d41;
   font-size: 20px;
+}
+.smallTitle {
+  font-size: 20px;
+  color: #3e3d41;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.copy {
+  text-align: center;
+  font-size: 13px;
+  color: #706e72;
+}
+.icon-menu {
+  gap: 20px;
+  list-style-type: none;
+}
+.col-3 {
+  border-left: 1px solid #ebe9ec;
+  padding: 10px 10px 0 10px;
+}
+.aside-paragraph {
+  font-size: 14px;
+  color: #706e72;
+}
+.body-btn {
+  background-color: #ebe9ec;
+  padding: 8px, 18px, 8px, 16px;
+  font-size: 14px;
+  border-radius: 100px;
+}
+.backBody {
+  background-color: #f5f2f6;
+  margin-top: 10px;
+  padding: 32px, 24px, 4px, 24px;
+}
+.date {
+  font-size: 13px;
+  color: #706e72;
 }

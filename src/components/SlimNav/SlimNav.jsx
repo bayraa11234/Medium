@@ -16,7 +16,7 @@ export default function SlimNav() {
 
   return (
     <>
-      <div className="d-flex justify-content-between py-2 px-4">
+      <div className="d-flex justify-content-between py-2 px-4 slim-nav">
         <div>
           <div className="d-flex">
             <img src={logoSmall} alt="" className="me-3" />
