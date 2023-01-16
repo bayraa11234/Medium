@@ -2,6 +2,7 @@ import React from "react";
 import ProfilePicture from "../../images/ProfilePicture.svg";
 import MainButton from "../SlimNav/MainButton";
 import { IoIosMail } from "react-icons/io";
+import AsideArticle from "./AsideArticle";
 
 export default function SlimAside() {
   return (
@@ -21,6 +22,7 @@ export default function SlimAside() {
           </MainButton>
         </div>
       </div>
+      <AsideArticle />
     </div>
   );
 }

@@ -9,11 +9,11 @@ export default function Article() {
       <SlimNav />
       <div className="container">
         <div className="row">
-          <div className="col-8">
+          <div className="col-7">
             <SlimBody />
           </div>
           <div className="col-1"></div>
-          <div className="col-3 ps-3">
+          <div className="col-4 ps-3">
             <SlimAside />
           </div>
         </div>
